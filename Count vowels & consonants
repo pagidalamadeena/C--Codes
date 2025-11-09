@@ -1,0 +1,30 @@
+//COUNT VOWELS & CONSONANTS--------------------------------------------------------------------------
+using System;
+namespace hi;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string s1, s;
+        Console.Write("Enter String:");
+        s1 = Console.ReadLine();
+        s = s1.ToLower();
+        int v = 0, c = 0;
+        foreach (char ch in s)
+        {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            {
+                v++;
+            }
+            else if (ch == ' ')
+            {
+                continue;
+            }
+            else
+            {
+                c++;
+            }
+        }
+        Console.WriteLine("Vowels= {0} & Consonants= {1}", v, c);
+    }
+}
