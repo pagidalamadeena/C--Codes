@@ -1,0 +1,22 @@
+//FIBONACCI SERIES----------------------------------------------------------------------------------
+using System;
+namespace hi;
+class Program
+{
+    static void Main(string[] args)
+    {
+        int x = 0, y = 1, n, temp, g = 0;
+        Console.Write("Enter Limit(for Fibonacci):");
+        n = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Fibonacci Series:");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("{0} ", x);
+            g = g + x;
+            temp = x + y;
+            x = y;
+            y = temp;
+        }
+        Console.WriteLine("Sum is {0}", g);
+    }
+}
