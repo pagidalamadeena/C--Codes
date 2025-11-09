@@ -1,0 +1,100 @@
+// using System;
+// namespace MiniProgram;
+// class Basics
+// {
+//     static void Main(string[] args)
+//     {
+//         // Console.WriteLine("Hi,I am Madeena.");
+//         // string s = "Hello guyz";
+//         // int l = s.Length;
+//         // Console.WriteLine("Lenth of String is {0}", l);
+
+
+//         //SUM OF 2 NUMBERS----------------------------------------------------------------------------------
+//         // int a;
+//         // int b;
+//         // Console.WriteLine("Enter 2 Numbers:");
+//         // a = Convert.ToInt32(Console.ReadLine());
+//         // b = Convert.ToInt32(Console.ReadLine());
+//         // Console.WriteLine("Sum is {0}", a + b);
+
+
+//         //ELIGIBLE TO VOTE OR NOT?----------------------------------------------------------------------------------
+//         // int age;
+//         // Console.Write("Enter Age:");
+//         // age = Convert.ToInt32(Console.ReadLine());
+//         // if (age > 18)
+//         // {
+//         //     Console.WriteLine("Eligible to Vote");
+//         // }
+//         // else
+//         // {
+//         //     Console.WriteLine("Not Eligible.");
+//         //     Console.WriteLine("Wait for {0} years to vote.", 18 - age);
+//         // }
+
+
+//         //PRINT N-NUMBERS   FOR LOOP----------------------------------------------------------------------------------
+//         // Console.Write("Enter Limit-to print Nums:");
+//         // int n = Convert.ToInt32(Console.ReadLine());
+//         // Console.WriteLine("Natural Numbers=");
+//         // for (int i = 1; i <= n; i++)
+//         // {
+//         //     Console.WriteLine(i);
+//         // }
+
+
+//         //SUM OF NUMS  WHILE LOOP----------------------------------------------------------------------------------
+//         // Console.WriteLine("Enter Numbers limit to add:");
+//         // int m = Convert.ToInt32(Console.ReadLine());
+//         // int total = 0;
+//         // while (m > 0)
+//         // {
+//         //     total = total + m;
+//         //     m--;
+//         // }
+//         // Console.WriteLine("Sum if {0}", total);
+
+
+//         //VOWEL OR CONSONANTS----------------------------------------------------------------------------------
+//         // Console.Write("Enter Character(Alphabet):");
+//         // char ch = Convert.ToChar(Console.ReadLine());
+//         // char c = char.ToLower(ch);
+//         // if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+//         // {
+//         //     Console.WriteLine("{0} is vowel", ch);
+//         // }
+//         // else
+//         // {
+//         //     Console.WriteLine("{0} is Consonant", ch);
+//         // }
+
+//         //LARGEST OF 3 NUMBERS----------------------------------------------------------------------------------
+//         // int a, b, c;
+//         // Console.Write("Enter 3 numbers:");
+//         // a = Convert.ToInt32(Console.ReadLine());
+//         // b = Convert.ToInt32(Console.ReadLine());
+//         // c = Convert.ToInt32(Console.ReadLine());
+//         // int largest = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+//         // Console.WriteLine("Largest is {0}", largest);
+
+//         //PREFIX & POSTFIX----------------------------------------------------------------------------------
+//         // int d = 5;
+//         // Console.WriteLine("Prefix Increament = {0}", ++d);
+//         // Console.WriteLine("Postfix Increament ={0}", d++);
+//         // Console.WriteLine("Value of d is {0}", d);
+
+//         //EVEN OR ODD?----------------------------------------------------------------------------------
+//         Console.Write("Enter Number:");
+//         int c = Convert.ToInt32(Console.ReadLine());
+//         if (c % 2 == 0)
+//         {
+//             Console.WriteLine("{0} is Even", c);
+//         }
+//         else
+//         {
+//             Console.WriteLine("{0} is Odd", c);
+//         }
+
+//     }
+// }
