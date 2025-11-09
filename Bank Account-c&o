@@ -1,0 +1,27 @@
+//BANK ACCOUNT - CLASS & OBJECT----------------------------------------------------------------------------------------
+using System;
+using System.Runtime.Intrinsics.X86;
+class BankAcnt
+{
+    public int Bal;
+    public string Name;
+    public void GetDetails()
+    {
+        Console.Write("Enter Name & Balance: ");
+        Name = Console.ReadLine();
+        Bal = Convert.ToInt32(Console.ReadLine());
+    }
+    public void Display()
+    {
+        Console.WriteLine("Name= {0}  Balance= {1}/-", Name, Bal);
+    }
+}
+class ClassObjects
+{
+    static void Main(string[] args)
+    {
+        BankAcnt b1 = new BankAcnt();
+        b1.GetDetails();
+        b1.Display();
+    }
+}
