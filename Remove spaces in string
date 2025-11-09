@@ -1,0 +1,15 @@
+//REMOVE SPACES IN STRING----------------------------------------------------------------------------------
+using System;
+class Program {
+    static void Main() {
+        string str = "C# is fun";
+        string result = "";
+        foreach (char c in str) {
+            if (c != ' ')
+            {
+                result += c;
+            }
+        }
+        Console.WriteLine(result);
+    }
+}
