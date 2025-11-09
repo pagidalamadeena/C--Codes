@@ -1,0 +1,13 @@
+//REPLACE SPACES WITH HYPHEN----------------------------------------------------------------------------------
+using System;
+namespace hi;
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter a string: ");
+        string input = Console.ReadLine();
+        string result = input.Replace(" ", "-");
+        Console.WriteLine("Result: " + result);
+    }
+}
