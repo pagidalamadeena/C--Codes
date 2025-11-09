@@ -1,0 +1,23 @@
+//RECTANGLE AREA - CLASS & OBJECT----------------------------------------------------------------------------------------
+using System;
+class Rectangle
+{
+    public int len;
+    public int brd;
+
+    public int Area(int l,int b)
+    {
+        len = l;
+        brd = b;
+        Console.WriteLine("Area= {0}", len * brd);
+        return 0;
+    }
+}
+class ClassObjects
+{
+    static void Main(string[] args)
+    {
+        Rectangle r1 = new Rectangle();
+        r1.Area(3,4);
+    }
+}
