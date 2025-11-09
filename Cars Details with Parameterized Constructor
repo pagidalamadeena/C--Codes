@@ -1,0 +1,31 @@
+//CARS DETAILS WITH PARAMETERIZED CONSTRUCTOR--------------------------------------------------------------------------------
+// using System;
+// class Car
+// {
+//     public string Brand;
+//     public int Price;
+//     public Car()
+//     {
+//         Brand = "NotKnown";
+//         Price = 0;
+//         Console.WriteLine("Brand: {0} & Price:{1}/-", Brand, Price);
+//     }
+//     public Car(string b, int p)
+//     {
+//         Brand = b;
+//         Price = p;
+//         Console.WriteLine("Brand: {0} & Price:{1}/-", Brand, Price);
+//     }
+//     // ~Car()
+//     // {
+//     //     Console.WriteLine("Destructor called for Car: " + Brand);
+//     // }
+// }
+// class ClassObjects
+// {
+//     static void Main(string[] args)
+//     {
+//         Car c1 = new Car();
+//         Car c2 = new Car("BMW", 500000);
+//     }
+// }
