@@ -1,0 +1,17 @@
+using System;
+namespace MiniProgram;
+class Basics{
+static void Main(String[] args){
+Console.Write("Enter Character(Alphabet):");
+char ch = Convert.ToChar(Console.ReadLine());
+char c = char.ToLower(ch);
+if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+{
+     Console.WriteLine("{0} is vowel", ch);
+}
+else
+{
+     Console.WriteLine("{0} is Consonant", ch);
+}
+}
+}
