@@ -1,0 +1,22 @@
+
+//SQUARE OF NUMBER(METHOD/FUNCTION)-INT & FLOAT-----------------------------------------------------------------------------
+using System;
+namespace hi;
+class Program{
+   static int square(int u){
+        int result = u * u;
+        Console.WriteLine("Square of {0} is {1}",u,result);
+        return u;
+   }
+   static float square(float u){
+        float resu = u * u;
+        Console.WriteLine("Square of {0} is {1}",u,resu);
+        return u;
+   }
+   static void Main(string[] args){
+      int t=5;
+      float r=2.1f;
+      square(t);
+      square(r);
+   }
+}
