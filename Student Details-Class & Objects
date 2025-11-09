@@ -1,0 +1,29 @@
+//STUDENT CLASS & OBJECT - DISPLAY NAME & REGNO------------------------------------------------------------------------
+using System;
+class Student
+{
+    public string Name;
+    public int Regno;
+    public void GetDetails()
+    {
+        Console.Write("Enter Name and Regno:");
+        Name = Console.ReadLine();
+        Regno = Convert.ToInt32(Console.ReadLine());
+    }
+    public void Display()
+    {
+        Console.WriteLine("Name= {0}  Regno= {1}", Name,Regno);
+    }
+}
+class ClassObjects
+{
+    static void Main(string[] args)
+    {
+        Student s1 = new Student();
+        Student s2 = new Student();
+        s1.GetDetails();
+        s2.GetDetails();
+        s1.Display();
+        s2.Display();
+    }
+}
