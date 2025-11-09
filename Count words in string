@@ -1,0 +1,22 @@
+//COUNT WORDS IN STRING----------------------------------------------------------------------------------
+using System;
+namespace hi
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string str1 = "C# is easy Language";
+            int counts = 1;
+            foreach (char c in str1)
+            {
+                if (c == ' ')
+                {
+                    counts++;
+                }
+            }
+            Console.WriteLine("String={0}", str1);
+            Console.WriteLine("No.of Words={0}", counts);
+        }
+    }
+}
