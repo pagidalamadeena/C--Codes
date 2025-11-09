@@ -1,0 +1,26 @@
+//COUNT FREQUENCY OF ELEMENT IN ARRAY----------------------------------------------------------------------------------
+using System;
+namespace hi
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] arr1 = { 1, 2, 3, 2, 1, 4, 5 }; // C# style array initialization
+            int size = arr1.Length; 
+
+            for (int i = 0; i < size; i++)
+            {
+                int freq = 0;
+                for (int j = 0; j < size; j++)
+                {
+                    if (arr1[j] == arr1[i])
+                    {
+                        freq++;
+                    }
+                }
+                Console.WriteLine("Frequency of {0} is {1}", arr1[i], freq);
+            }
+        }
+    }
+}
