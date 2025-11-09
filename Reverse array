@@ -1,0 +1,24 @@
+//REVERSE ARRAY----------------------------------------------------------------------------------
+using System;
+namespace hi
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int size;
+            Console.Write("Enter Size:");
+            size = Convert.ToInt32(Console.ReadLine());
+            int[] arr1 = new int[size];
+            Console.WriteLine("Enter Elements:");
+            for (int i = 0; i < size; i++)
+            {
+                arr1[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.Write("Reversed Array:");
+            for (int i = size - 1; i >= 0; i--)
+            {
+                Console.Write("{0} ", arr1[i]);
+            }
+        }
+  
